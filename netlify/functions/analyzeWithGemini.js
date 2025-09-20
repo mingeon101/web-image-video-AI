@@ -1,4 +1,5 @@
-const { GoogleGenerativeAI } = require("@google/generative-ai");
+// 새 코드 👍
+const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash-latest" });
 
 // Netlify 환경 변수에서 API 키를 안전하게 불러옵니다.
 const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
@@ -53,3 +54,4 @@ exports.handler = async function (event) {
     };
   }
 };
+
