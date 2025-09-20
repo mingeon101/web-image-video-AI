@@ -1,0 +1,14 @@
+{
+  "name": "ai-image-analyzer",
+  "version": "1.0.0",
+  "description": "Image analysis app with Gemini API and Netlify",
+  "scripts": {
+    "start": "echo 'No start script needed for this setup. Deploy to Netlify.'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google/generative-ai": "^0.2.1"
+  }
+}
